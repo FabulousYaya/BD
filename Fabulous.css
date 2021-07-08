@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+}
+.logo, .nav-menu{
+	display: inline-block;
+	justify-content: space-between;
+}
+.logo, .nav-menu{
+	position: sticky;
+	top: 0;
+}
+.nav-menu ul li{
+	display: inline-block;
+	padding: 16px 20px;
+	text-transform: uppercase;
+	float: left;
+}
+.nav-menu ul li a{
+ text-decoration: none;
+ color: black;
+ font-family: 'Shadows Into Light Two', cursive;
+ font-weight: bold;
+}
+.nav-menu ul li:hover{
+	background-color: black;
+}
+.nav-menu ul li a:hover{
+	color: white;
+}
+.nav-menu ul li:hover a{
+	color:white;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropbtn{
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	text-transform: uppercase;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black !important;
+	padding: 16px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropdown-content a:hover{
+	background-color: black;
+	color: white !important;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.fabulous p{
+text-align: center;
+line-height: 60px;
+font-size: 24px;
+font-weight: bold;
+color: #0E96AC;
+font-family: 'Bad Script', cursive;
+margin-right: 150px;
+margin-left: 150px;
+}

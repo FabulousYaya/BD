@@ -1,0 +1,257 @@
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bad Script', cursive;
+}
+* p{
+	color: #0E96AC;
+	font-weight: bold;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+}
+.logo, .nav-menu{
+	display: inline-block;
+	justify-content: space-between;
+}
+.logo, .nav-menu{
+	position: sticky;
+	top: 0;
+}
+.nav-menu ul li{
+	display: inline-block;
+	padding: 16px 20px;
+	text-transform: uppercase;
+	float: left;
+}
+.nav-menu ul li a{
+ text-decoration: none;
+ color: black;
+ font-family: 'Shadows Into Light Two', cursive !important;
+ font-weight: bold;
+}
+.nav-menu ul li:hover{
+	background-color: black;
+}
+.nav-menu ul li a:hover{
+	color: white;
+}
+.nav-menu ul li:hover a{
+	color:white;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropbtn{
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	text-transform: uppercase;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black !important;
+	padding: 16px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropdown-content a:hover{
+	background-color: black;
+	color: white !important;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/* pictures/text style */
+.head{
+font-size: 30px !important;
+text-align: center;
+}
+.intro p{
+font-size: 20px;
+text-align: center;
+}
+.pic1 img{
+display: block;
+margin-left: auto; 
+margin-right: auto;
+width: 700px;
+height: 500px;
+}
+.pic1 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic2 img{
+display: block;
+margin-left: auto; 
+margin-right: auto;
+width: 300px; 
+height: 600px;
+}
+.pic2 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic3 img{
+display: block;
+margin-left: auto; 
+margin-right: auto;
+height: 700px;
+width: 550px;
+}
+.pic3 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic4 img{
+display: block;
+margin-left: auto; 
+margin-right: auto;
+}
+.pic4 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic5-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.pic5-grid img{
+width: 350px;
+height: 400px; 
+}
+.pic5 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic6-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.pic6-grid img{
+width: 450px;
+height: 400px; 
+}
+.pic6 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic7 img{
+display: block;
+margin-right: auto;
+margin-left: auto; 
+width: 450px;
+height: 600px; 
+}
+.pic7 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic8-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.pic8-grid img{
+width: 450px;
+height: 600px; 
+}
+.pic8 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic9-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pic9-grid img{
+	height: 800px;
+	width: 675px;
+}
+.pic9 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic10-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pic10-grid img{
+	height: 500px;
+	width: 675px;
+}
+.pic10 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic11-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pic11-grid img{
+	height: 900px;
+	width: 675px;
+}
+.pic11 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic12-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pic12-grid img{
+	height: 900px;
+	width: 675px;
+}
+.pic12 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.pic13-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.pic13-grid img{
+	height: 900px;
+	width: 675px;
+}
+.pic13 p{
+text-align: center;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
