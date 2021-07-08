@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+}
+.logo, .nav-menu{
+	display: inline-block;
+	justify-content: space-between;
+}
+.logo, .nav-menu{
+	position: sticky;
+	top: 0;
+}
+.nav-menu ul li{
+	display: inline-block;
+	padding: 16px 20px;
+	text-transform: uppercase;
+	float: left;
+}
+.nav-menu ul li a{
+ text-decoration: none;
+ color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+}
+.nav-menu ul li:hover{
+	background-color: black;
+}
+.nav-menu ul li a:hover{
+	color: white;
+}
+.nav-menu ul li:hover a{
+	color:white;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropbtn{
+	border: none;
+	background-color: inherit;
+	font: inherit;
+	text-transform: uppercase;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black !important;
+	padding: 16px 20px;
+	display: block;
+	text-decoration: none;
+}
+.dropdown-content a:hover{
+	background-color: black;
+	color: white !important;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/*editing the text and the display*/
+
+.items-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15{
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.pic1 span, .pic2 span, .pic3 span, .pic4 span, .pic5 span, .pic6 span, .pic7 span, .pic8 span, .pic9 span, .pic10 span, .pic11 span, .pic12 span, .pic13 span, .pic14 span, .pic15 span{
+	display: none;
+}
+.pic1 p, .pic2 p, .pic3 p {
+	margin-top: 100px;
+	color: white;
+}
+.pic8 p{
+	margin-top: 300px;
+}
+.pic12 p{
+	color: white
+}
+.pic4 p, .pic5 p, .pic6 p, .pic7 p, .pic8 p, .pic9 p, .pic10 p, .pic11 p, .pic13 p, .pic14 p, .pic15 p{
+	margin-top: 200px;
+	color: white;
+}
+
+/*adding the pictures as background*/
+
+.pic1{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img1.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic2{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img2.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic3{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img3.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic4{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img4.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic5{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img5.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic6{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img6.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic7{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img7.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic8{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img8.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic9{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img9.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic10{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img10.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic11{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img14.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic12{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img12.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic13{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img13.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+.pic14{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img11.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+.pic15{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img15.jpeg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+
+/*making the hover package*/
+/*hover display*/
+.pic1:hover span, .pic2:hover span, .pic3:hover span{
+	display: block;
+	margin-top: 100px;
+	color: white;
+}
+.pic4:hover span, .pic5:hover span, .pic6:hover span, .pic7:hover span, .pic9:hover span, .pic10:hover span, .pic11:hover span, .pic13:hover span, .pic14:hover span, .pic15:hover span{
+	display: block;
+	color: white;
+	margin-top: 200px;
+}
+.pic8:hover span{
+	display: block;
+	color: white;
+	margin-top: 300px;
+}
+.pic12:hover span{
+ color: white;
+ display: block;
+ line-height: 70px;
+ }
+.pic1:hover p, .pic2:hover p, .pic3:hover p, .pic4:hover p, .pic5:hover p, .pic6:hover p{
+	display: none;
+}
+.pic7:hover p, .pic8:hover p,.pic9:hover p, .pic10:hover p, .pic11:hover p, .pic12:hover p, .pic13:hover p, .pic14:hover p, .pic15:hover p{
+	display: none;
+}
+/*.pic1:hover p, .pic2:hover p, .pic3:hover p, .pic4:hover p, .pic5:hover p, .pic6:hover p, .pic7:hover span, .pic8:hover p, .pic9:hover p, .pic10:hoverp, .pic11:hover p, .pic12:hover p, .pic13:hover p, .pic14:hover p, .pic15:hover p{
+	display: none !important;
+}*/
+.pic1 p, .pic2 p, .pic3 p {
+	margin-top: 100px;
+	color: white;
+}
+.pic8 p{
+	margin-top: 300px;
+}
+.pic4 p, .pic5 p, .pic6 p, .pic7 p, .pic9 p, .pic10 p, .pic11 p, .pic13 p, .pic14 p, .pic15 p{
+	margin-top: 200px;
+	color: white;
+}
+
+/*hover dark background effect*/
+.pic1:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img1.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic2:hover{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img2.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic3:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img3.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 350px;
+	width: 450px;
+}
+.pic4:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic5:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img5.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic6:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img6.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic7:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img7.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic8:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img8.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic9:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img9.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic10:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img10.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic11:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img14.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic12:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img12.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 550px;
+	width: 450px;
+}
+.pic13:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img13.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+.pic14:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img11.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+.pic15:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img15.jpeg);
+	background-size: cover;
+	background-repeat: none;
+	height: 650px;
+	width: 450px;
+}
+.sweets{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+}
+.prologue{
+	margin-right: 150px;
+	margin-left: 150px;
+}
