@@ -8,6 +8,31 @@
 	<title>BIRTHDAY</title>
 </head>
 <body>
+	<div id="sideNav" class="side-nav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="pics.html">Pictures</a>
+		<a href="video.html">Videos</a>
+		<a href="Fabulous.html">Fabulous</a>
+		<a href="hbd.html">happy birthday</a>
+		<a href="yt.html">1 year together!!</a>
+		<a href="pastbd.html">last birthday gifts</a>
+		<a href="pns.html">poetry & sweets</a>
+	</div>
+	<div class="menu-container">
+
+		<div class="nav-bar">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png"></a>
+			</div>
+			<div class="nav-menu">
+				<span onclick="openNav()"><i class="fas fa-bars"></i></span>
+			</div>
+		</div>
+	</div>
+
+
+
 <div class="container">
 	<div class="logo">
 		<a href="index.html"><img src="logo.png"></a>
@@ -31,7 +56,21 @@
 			<li><a href="pns.html">poetry & sweets</a></li>
 		</ul>
 	</div>
-	<span class="bg"><img src="background.jpg"></span>
+
 </div>
+	<span class="bg"><img src="background.jpg"></span>
+
+
+
+<script src="https://kit.fontawesome.com/6e8bd43bfe.js" crossorigin="anonymous"></script>
+<script>
+function openNav() {
+document.getElementById("sideNav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("sideNav").style.width = "0";
+}
+</script>
 </body>
 </html>

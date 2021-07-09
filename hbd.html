@@ -9,6 +9,28 @@
 	<title>HBD speech</title>
 </head>
 <body>
+	<div id="sideNav" class="side-nav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="pics.html">Pictures</a>
+		<a href="video.html">Videos</a>
+		<a href="Fabulous.html">Fabulous</a>
+		<a href="hbd.html">happy birthday</a>
+		<a href="yt.html">1 year together!!</a>
+		<a href="pastbd.html">last birthday gifts</a>
+		<a href="pns.html">poetry & sweets</a>
+	</div>
+	<div class="menu-container">
+
+		<div class="nav-bar">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png"></a>
+			</div>
+			<div class="nav-menu">
+				<span onclick="openNav()"><i class="fas fa-bars"></i></span>
+			</div>
+		</div>
+	</div>
 <div class="container">
 	<div class="logo">
 		<a href="index.html"><img src="logo.png"></a>
@@ -32,11 +54,21 @@
 			<li><a href="pns.html">poetry & sweets</a></li>
 		</ul>
 	</div>
+</div>
 	<div class="hbds">
 		<p>
 			<span>PERFECT BIRTHDAY!</span> <br>Last year it was a happy birthday, but this year it is or will be a perfect birthday. I hope this website will make you remember all the good, happy, fun moments we had together but more importantly remember how much stronger, sweeter, and smarter you have grown during this chapter of your life. This website is for you to keep and to look at whenever you want or whenever you need an idea about how my brain looks like from inside. Like last year, a new chapter begins as the other closes and with new chapters comes new challenges but I am sure you and I will handle them like dauntless heroes. Hope you liked the speech, the gifts, and me showing you the way around your gift.<br> Ah one more thing, this month is very special not only because your birthday, but also tomorrow it will be 1 year since the first time we said to each other "I love you" and the day after tomorrow marks 1 year and 1 month since we first talked. That's something really special about us.... happiness after happiness after happiness.
 		</p>
 	</div>
-</div>
+	<script src="https://kit.fontawesome.com/6e8bd43bfe.js" crossorigin="anonymous"></script>
+	<script>
+	function openNav() {
+	document.getElementById("sideNav").style.width = "250px";
+	}
+
+	function closeNav() {
+	document.getElementById("sideNav").style.width = "0";
+	}
+	</script>
 </body>
 </html>

@@ -9,6 +9,28 @@
 	<title>LAST BIRTHDAY GIFTS</title>
 </head>
 <body>
+	<div id="sideNav" class="side-nav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="pics.html">Pictures</a>
+		<a href="video.html">Videos</a>
+		<a href="Fabulous.html">Fabulous</a>
+		<a href="hbd.html">happy birthday</a>
+		<a href="yt.html">1 year together!!</a>
+		<a href="pastbd.html">last birthday gifts</a>
+		<a href="pns.html">poetry & sweets</a>
+	</div>
+	<div class="menu-container">
+
+		<div class="nav-bar">
+			<div class="logo">
+				<a href="index.html"><img src="logo.png"></a>
+			</div>
+			<div class="nav-menu">
+				<span onclick="openNav()"><i class="fas fa-bars"></i></span>
+			</div>
+		</div>
+	</div>
 <div class="container">
 	<div class="logo">
 		<a href="index.html"><img src="logo.png"></a>
@@ -32,13 +54,14 @@
 			<li><a href="pns.html">poetry & sweets</a></li>
 		</ul>
 	</div>
+</div>
 	<div class="lbdg">
 		<div class="intro">
 			<p>On the 10th of september, 2019<br> You went to school, and I stayed home and started working on your birthday gifts.<br> The gifts were 2 drawings and a speech.<br> I couldn't think of other simple but valuable gifts but this year is different as you can see.<br> Hope this brings back happy memories and make new unforgettable ones. </p>
 		</div>
 		<div class="pic-text">
 		    <div class="pic1">
-			    <img src="cupcake.jpg"> 
+			    <img src="cupcake.jpg">
 		    </div>
 		    <br>
 		    <div class="text">
@@ -65,8 +88,19 @@
 			<br>
 			<br>
 			<p>So was this a good finale?</p>
-		</div>		
+		</div>
 	</div>
-</div>
+
+	<script src="https://kit.fontawesome.com/6e8bd43bfe.js" crossorigin="anonymous"></script>
+	<script>
+	function openNav() {
+	document.getElementById("sideNav").style.width = "250px";
+	}
+
+	function closeNav() {
+	document.getElementById("sideNav").style.width = "0";
+	}
+	</script>
+
 </body>
 </html>
